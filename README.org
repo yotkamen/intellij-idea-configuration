@@ -1,0 +1,30 @@
+* IntelliJ configuration
+  - Formatter: https://github.com/google/styleguide/blob/gh-pages/intellij-java-google-style.xml
+  - Line Lenght to 140: Settings > Editor > Code Style > Hard wrap at
+  - EOF: Settings | Editor | General | Ensure every saved file ends with a line
+    break
+  - Docs & Sources: Settings | Build, Execution, Deployment | Build Tools |
+    Maven | Importing | Automatically download (select docs)
+  - license: http://jetbrains-license.endava.net:1111/
+  - checkstyle: install Checkstyle-IDEA plugin and enable Google Checks for
+    "Only java source including tests" at: Settings | Tools | Checkstyle
+  - imports: Set count to 9 of imports to be replaced with '*' at: Settings |
+    Editor | Code Style | Java
+  - install CheckStyle-IDEA plugin
+  - configure checkstyle at: Settings | Tools | Checkstyle
+    - Scan Scope: All sources (including tests)
+    - Configuration File: add checkstyle.xml
+  - imports: Set import order at: Settings | Editor | Code Style | Java | Import Layout
+
+    | Package                         |
+    |---------------------------------|
+    | import all other imports        |
+    | <blank line>                    |
+    | import javax.*                  |
+    | import java.*                   |
+    | <blank line>                    |
+    | import static all other imports |
+
+* Github configuratin
+  - unless you already have ssh keys at .ssh use ssh-keygen to generate one and
+    add it to the Github Settings
