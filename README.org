@@ -28,3 +28,6 @@
 * Github configuratin
   - unless you already have ssh keys at .ssh use ssh-keygen to generate one and
     add it to the Github Settings
+  - if on Windows please run: ~git config --global core.autocrlf false~
+
+
