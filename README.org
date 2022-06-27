@@ -25,6 +25,8 @@
     | <blank line>                    |
     | import static all other imports |
 
+  - Settings | Editor | Code Style | Java | Wrapping and Braces | Binary expressions | Operation sign on next line
+
 * Github configuratin
   - unless you already have ssh keys at .ssh use ssh-keygen to generate one and
     add it to the Github Settings
